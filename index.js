@@ -102,3 +102,66 @@ for (let palavra of arrayPalavras) {
 console.log(mensagem);
 */
 
+
+// Anotações
+/*
+const usuarios = [
+    {name: `Rafael`, age: 36},
+    {name: `Anderson`, age: 15},
+]
+
+for (usuario of usuarios) {
+    console.log(usuario.name); // ou console.log(`Nome: ${usuario.name} - Idade ${usuario.age}`)
+}
+*/
+
+
+
+// Exercícios de Interpretação de Códigos
+
+// Exercício 1
+/*
+Resposta:
+O código é repetido adicionando o `valor` e o `i` e os exibindo no final, como os valores menores que 5 são 1, 2, 3 e 4
+eles são somados, encerrando ao chegar no cinco.
+*/
+
+// Exercício 2
+/*
+Resposta A:
+Vai ser impresso no console os números  18, 19, 21, 23, 25, 27 e 30 por eles atenderem a condição.
+
+Resposta B:
+Primeiramente, é possível encontrar o índice através do length (-1  para saber o índice do último elemento dentro
+do array), entretanto, não é suficiente através do `for... of...`, preisando do for.
+
+
+const lista = [10, 11, 12, 15, 18, 19, 21, 23, 25, 27, 30]
+ for (let i = 0; i < 18; i++) {
+  console.log(i)
+	}
+*/
+
+// Exercício 3 (Inconclusivo)
+
+
+
+// Exercício 1 (Inconclusivo)
+/*
+const perguntaBichinho = Number(prompt("Quantos animais de estimação você tem?"));
+const respostaUsuario = perguntaBichinho;
+
+
+if (respostaUsuario = 0) {
+    while (respostaUsuario = 0; respostaUsuario = 0; respostaUsuario++) {
+        if (respostaUsuario = 0) {
+           console.log("Que pena! Você pode adotar um pet!");
+} else {
+    const arrayBichinhos = [];
+    const nomeBichinhos = prompt("Qual o nome deles?");
+    arrayBichinhos.push(arrayBichinhos);
+    console.log(arrayBichinhos);
+}
+}
+}
+*/
