@@ -211,7 +211,7 @@ exercicioB()
 let arrayOriginal = [18, 28, 13, 24, 23, 15];
 let novoArray = []
 
-const exercicioC= () => {
+const exercicioC = () => {
  for (i = 0; i < arrayOriginal.length; i++) {
     const elemento = arrayOriginal[i]
     if (elemento % 2 === 0) {
@@ -253,3 +253,4 @@ console.log(codigoCompleto.length)
 // variavel lista ajustar
 // prompt("Escreva\num numero") \n quebra de linha
 // use a `` para usar o espaço depois e dar a quebra de linha
+// default /  nada retornar ao menu
