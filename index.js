@@ -142,26 +142,114 @@ const lista = [10, 11, 12, 15, 18, 19, 21, 23, 25, 27, 30]
 	}
 */
 
-// Exercício 3 (Inconclusivo)
+// Exercício 3
+/*
+Resposta:
+*
+**
+***
+****
 
-
+Isto será exibido por causa das condições que, neste caso, limitam até o número 4 o 'quantidadeAtual', com o
++1 colocado depois o resultado final é quatro asteriscos.
+*/
 
 // Exercício 1 (Inconclusivo)
+// Resposta A:
 /*
 const perguntaBichinho = Number(prompt("Quantos animais de estimação você tem?"));
 const respostaUsuario = perguntaBichinho;
+let arrayBichinhos = [];
+const tamanhoArray = console.log(arrayBichinhos.length)
+*/
 
-
-if (respostaUsuario = 0) {
-    while (respostaUsuario = 0; respostaUsuario = 0; respostaUsuario++) {
-        if (respostaUsuario = 0) {
-           console.log("Que pena! Você pode adotar um pet!");
-} else {
-    const arrayBichinhos = [];
-    const nomeBichinhos = prompt("Qual o nome deles?");
-    arrayBichinhos.push(arrayBichinhos);
+// Resposta B:
+/*
+if (respostaUsuario === 0) {
+      console.log("Que pena! Você pode adotar um pet!");
+   } else {
+    for (i = 0; i < respostaUsuario; i++) {
+    const nomeBichinhos = prompt("Qual o nome do seu animal de estimação?");
+    arrayBichinhos.push(nomeBichinhos);
+    }
     console.log(arrayBichinhos);
+    }
+
+*/
+
+// console.table
+// Exercício 2
+
+// Resposta A
+/*
+let arrayOriginal = [18, 28, 13];
+
+const exercicioA = () => {
+    for (let numero of arrayOriginal)
+    console.log(numero)
+}
+
+exercicioA()
+*/
+
+// Resposta B:
+/*
+let arrayOriginal = [18, 28, 13, 24, 23, 15];
+
+const exercicioB = () => {
+    for (i = 0; i < arrayOriginal.length; i++) {
+     const divisao = arrayOriginal[i] / 10
+     console.log(divisao);
 }
 }
+
+exercicioB()
+*/
+
+// Resposta C:
+/*
+let arrayOriginal = [18, 28, 13, 24, 23, 15];
+let novoArray = []
+
+const exercicioC= () => {
+ for (i = 0; i < arrayOriginal.length; i++) {
+    const elemento = arrayOriginal[i]
+    if (elemento % 2 === 0) {
+     novoArray.push(arrayOriginal[i])
+     console.log(novoArray)
+ }
+}
+}
+
+exercicioC()
+*/
+
+// Resposta D:
+/*
+const exercicioD = () => {
+ const numeros = [18, 28, 13, 24, 23, 15]
+ for (let i = 0; i < numeros.length; i++) {
+    console.log(`O elemento do índex ${i} é: ${numeros[i]}`)
 }
 */
+
+
+// Anotações
+/*
+const numerosDois = [12, 342, 43, 52, 54]
+for (let numero of numeros) {
+ // const indice = numeros.indexOf(numero)
+ console.log(`O número de índice ${} é: ${}`)
+}
+*/
+
+// Anotações
+/*
+const codigo = 10
+const codigoCompleto = codigo.padEnd(5, "0");
+console.log(codigoCompleto.length)
+*/
+
+// variavel lista ajustar
+// prompt("Escreva\num numero") \n quebra de linha
+// use a `` para usar o espaço depois e dar a quebra de linha
