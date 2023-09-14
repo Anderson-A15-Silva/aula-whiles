@@ -255,3 +255,27 @@ console.log(codigoCompleto.length)
 // prompt("Escreva\num numero") \n quebra de linha
 // use a `` para usar o espaço depois e dar a quebra de linha
 // default /  nada retornar ao menu
+
+// Resposta E (Inconclusivo):
+/*
+let arrayOriginal = [18, 28, 13, 24, 23, 15];
+
+const exercicioC = () => {
+    let maiorNumero = 0;
+    let menorNumero = 0;
+
+    const conversao = () => {
+    for(let i = 0; i < arrayOriginal.length; i++) {
+        let numeroAtual = arrayOriginal[i]
+        if(numeroAtual >= maiorNumero) {
+        maiorNumero = numeroAtual;
+        } else {
+          menorNumero = numeroAtual;
+        }
+   }
+
+    console.log(`O maior número é ${maiorNumero} e o menor é ${menorNumero}.`)
+}
+conversao(arrayOriginal)
+}
+*/
