@@ -154,7 +154,7 @@ Isto será exibido por causa das condições que, neste caso, limitam até o nú
 +1 colocado depois o resultado final é quatro asteriscos.
 */
 
-// Exercício 1 (Inconclusivo)
+// Exercício 1
 // Resposta A:
 /*
 const perguntaBichinho = Number(prompt("Quantos animais de estimação você tem?"));
@@ -174,15 +174,15 @@ if (respostaUsuario === 0) {
     }
     console.log(arrayBichinhos);
     }
-
 */
+
 
 // console.table
 // Exercício 2
 
 // Resposta A
 /*
-let arrayOriginal = [18, 28, 13];
+let arrayOriginal = [18, 28, 13, 24, 23, 15];
 
 const exercicioA = () => {
     for (let numero of arrayOriginal)
@@ -209,16 +209,17 @@ exercicioB()
 // Resposta C:
 /*
 let arrayOriginal = [18, 28, 13, 24, 23, 15];
-let novoArray = []
+let novoArray = [];
+
 
 const exercicioC = () => {
- for (i = 0; i < arrayOriginal.length; i++) {
-    const elemento = arrayOriginal[i]
-    if (elemento % 2 === 0) {
-     novoArray.push(arrayOriginal[i])
-     console.log(novoArray)
- }
-}
+    for (let number of arrayOriginal) {
+        if (number % 2 === 0) {
+            novoArray.push(number)
+        }
+    }
+
+    console.log(novoArray)
 }
 
 exercicioC()
